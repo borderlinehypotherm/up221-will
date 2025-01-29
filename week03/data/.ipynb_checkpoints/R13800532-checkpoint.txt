@@ -1,0 +1,441 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R13800532
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2023 (5-Year Estimates)
+Dataset:          Social Explorer Tables: ACS 2023 (5-Year Estimates)
+Tables:
+
+      1. Households by Household Type
+         Universe:  Households
+         Name:      A10008
+         Variables:
+            A10008_001:   Households:
+            A10008_002:      Family Households:
+            A10008_003:         Married-Couple Family
+            A10008_004:         Other Family:
+            A10008_005:            Male Householder, No Wife Present
+            A10008_006:            Female Householder, No Husband Present
+            A10008_007:      Nonfamily Households:
+            A10008_008:         Male Householder
+            A10008_009:         Female Householder
+
+
+      2. Household Size (Renter-Occupied Housing Units)
+         Universe:  Universe:  Renter-Occupied Housing Units
+         Name:      A10002B
+         Variables:
+            A10002B_001:   Renter-Occupied Housing Units:
+            A10002B_002:      1-Person Household
+            A10002B_003:      2-Person Household
+            A10002B_004:      3-Person Household
+            A10002B_005:      4-Person Household
+            A10002B_006:      5-Person Household
+            A10002B_007:      6-Person Household
+            A10002B_008:      7-or-More Person Household
+
+
+      3. Race (Renter-Occupied Housing Units)
+         Universe:  Universe:  Renter-Occupied Housing Units
+         Name:      A03001B
+         Variables:
+            A03001B_001:   Renter-Occupied Housing Units:
+            A03001B_002:      White Alone Householder
+            A03001B_003:      Black or African American Alone Householder
+            A03001B_004:      American Indian and Alaska Native Alone Householder
+            A03001B_005:      Asian Alone Householder
+            A03001B_006:      Native Hawaiian and Other Pacific Islander Alone Householder
+            A03001B_007:      Some Other Race Alone Householder
+            A03001B_008:      Two or More Races Householder
+            A03001B_009:      White Alone, Not Hispanic or Latino Householder
+            A03001B_010:      Hispanic or Latino Householder
+
+
+      4. Households by Race of Householder
+         Universe:  Households
+         Name:      A10010
+         Variables:
+            A10010_001:   Households:
+            A10010_002:      With a Householder Who Is White Alone
+            A10010_003:      With a Householder Who Is Black or African  American Alone
+            A10010_004:      With a Householder Who Is American Indian and  Alaska Native Alone
+            A10010_005:      With a Householder Who Is Asian Alone
+            A10010_006:      With a Householder Who Is Native Hawaiian and  Other Pacific Islander Alone
+            A10010_007:      With a Householder Who Is Some Other Race Alone
+            A10010_008:      With a Householder Who Is Two or More Races
+            A10010_009:      With a Householder Who Is Hispanic or Latino
+            A10010_010:      With a Householder Who Is White Alone, Not  Hispanic or Latino
+
+
+      5. Housing Units
+         Universe:  Housing units
+         Name:      A10001
+         Variables:
+            A10001_001:   Housing Units
+
+
+      6. Housing Units in Structure
+         Universe:  Housing Units
+         Name:      A10032
+         Variables:
+            A10032_001:   Housing Units:
+            A10032_002:      1 Unit:
+            A10032_003:         1, Detached
+            A10032_004:         1, Attached
+            A10032_005:      2
+            A10032_006:      3 or 4
+            A10032_007:      5 to 9
+            A10032_008:      10 to 19
+            A10032_009:      20 to 49
+            A10032_010:      50 or More
+            A10032_011:      Mobile Home
+            A10032_012:      Boat, Rv, Van, Etc.
+
+
+      7. Occupied Housing Units by Year Structure Built
+         Universe:  Universe:  Occupied housing units
+         Name:      A10055
+         Variables:
+            A10055_001:   Occupied Housing Units:
+            A10055_002:      Built 2020 or Later
+            A10055_003:      Built 2010 to 2019
+            A10055_004:      Built 2000 to 2009
+            A10055_005:      Built 1990 to 1999
+            A10055_006:      Built 1980 to 1989
+            A10055_007:      Built 1970 to 1979
+            A10055_008:      Built 1960 to 1969
+            A10055_009:      Built 1950 to 1959
+            A10055_010:      Built 1940 to 1949
+            A10055_011:      Built 1939 or Earlier
+
+
+      8. Year Structure Built (Renter-Occupied Housing Units)
+         Universe:  Universe:  Renter-Occupied Housing Units
+         Name:      A10059B
+         Variables:
+            A10059B_001:   Renter-Occupied Housing Units:
+            A10059B_002:      Built 2020 or Later
+            A10059B_003:      Built 2010 to 2019
+            A10059B_004:      Built 2000 to 2009
+            A10059B_005:      Built 1990 to 1999
+            A10059B_006:      Built 1980 to 1989
+            A10059B_007:      Built 1970 to 1979
+            A10059B_008:      Built 1960 to 1969
+            A10059B_009:      Built 1950 to 1959
+            A10059B_010:      Built 1940 to 1949
+            A10059B_011:      Built 1939 or Earlier
+
+
+      9. Housing Units by Number of Occupants Per Room
+         Universe:  Universe:  Occupied housing units
+         Name:      A10028
+         Variables:
+            A10028_001:   Occupied Housing Units:
+            A10028_002:      0.50 or Less Occupants Per Room
+            A10028_003:      0.51 to 1.00 Occupants Per Room
+            A10028_004:      1.01 to 1.50 Occupants Per Room
+            A10028_005:      1.51 to 2.00 Occupants Per Room
+            A10028_006:      2.01 or More Occupants Per Room
+
+
+      10. House Heating Fuel
+          Universe:  Occupied Housing Units
+          Name:      A10034
+          Variables:
+             A10034_001:   Occupied Housing Units:
+             A10034_002:      Gas (Utility, Bottled, Tank, or Lp Gas)
+             A10034_003:      Electricity
+             A10034_004:      Fuel Oil, Kerosene, Etc.
+             A10034_005:      Coal, Coke or Wood
+             A10034_006:      Solar Energy
+             A10034_007:      Other Fuel
+             A10034_008:      No Fuel Used
+
+
+      11. House Heating Fuel (Renter-Occupied Housing Units)
+          Universe:  Universe:  Renter-Occupied Housing Units
+          Name:      A10034B
+          Variables:
+             A10034B_001:   Renter-Occupied Housing Units:
+             A10034B_002:      Utility Gas
+             A10034B_003:      Bottled, Tank, or Lp Gas
+             A10034B_004:      Electricity
+             A10034B_005:      Fuel Oil, Kerosene, Etc.
+             A10034B_006:      Coal or Coke
+             A10034B_007:      Wood
+             A10034B_008:      Solar Energy
+             A10034B_009:      Other Fuel
+             A10034B_010:      No Fuel Used
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      QName:          Qualifying Name
+      STUSAB:         State Postal Abbreviation
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      US:             US
+      REGION:         Census Region
+      DIVISION:       Census Division
+      STATE:          State (FIPS Code)
+      COUNTY:         County of current residence
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/AlaskaNative Area/ Hawaiian Home Land(Census)
+      AIANHHFP:       American Indian Area/AlaskaNative Area/ Hawaiian Home Land(FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITS:           American Indian TribalSubdivision (FIPS)
+      ANRC:           Alaska Native RegionalCorporation (FIPS)
+      CBSA:           Metropolitan and MicropolitanStatistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Statistical Area-Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/MicropolitanIndicator Flag
+      NECTA:          New England City and Town Area
+      CNECTA:         New England City and TownCombined Statistical Area
+      NECTADIV:       New England City and Town AreaDivision
+      UA:             Urban Area
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          5-digit ZIP Code Tabulation Area
+      SUBMCD:         Subminor Civil Division (FIPS)
+      SDELM:          State-School District (Elementary)
+      SDSEC:          State-School District (Secondary)
+      SDUNI:          State-School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      PUMA5:          Public Use Microdata Area – 5%File
+      GEO_ID:         Geographic Identifier
+      NAME:           Area Name
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      PLACESE:        Place (State FIPS + Place FIPS)
+      A10008_001:     Households:
+      A10008_002:     Households: Family Households
+      A10008_003:     Households: Family Households: Married-Couple Family
+      A10008_004:     Households: Family Households: Other Family
+      A10008_005:     Households: Family Households: Other Family: Male Householder, No Wife Present
+      A10008_006:     Households: Family Households: Other Family: Female Householder, No Husband Present
+      A10008_007:     Households: Nonfamily Households
+      A10008_008:     Households: Nonfamily Households: Male Householder
+      A10008_009:     Households: Nonfamily Households: Female Householder
+      PCT_A10008_002: % Households: Family Households
+      PCT_A10008_003: % Households: Family Households: Married-Couple Family
+      PCT_A10008_004: % Households: Family Households: Other Family
+      PCT_A10008_005: % Households: Family Households: Other Family: Male Householder, No Wife Present
+      PCT_A10008_006: % Households: Family Households: Other Family: Female Householder, No Husband Present
+      PCT_A10008_007: % Households: Nonfamily Households
+      PCT_A10008_008: % Households: Nonfamily Households: Male Householder
+      PCT_A10008_009: % Households: Nonfamily Households: Female Householder
+      A10002B_001:    Renter-Occupied Housing Units
+      A10002B_002:    Renter-Occupied Housing Units: 1-Person Household
+      A10002B_003:    Renter-Occupied Housing Units: 2-Person Household
+      A10002B_004:    Renter-Occupied Housing Units: 3-Person Household
+      A10002B_005:    Renter-Occupied Housing Units: 4-Person Household
+      A10002B_006:    Renter-Occupied Housing Units: 5-Person Household
+      A10002B_007:    Renter-Occupied Housing Units: 6-Person Household
+      A10002B_008:    Renter-Occupied Housing Units: 7-or-More Person Household
+      PCT_A10002B_002: % Renter-Occupied Housing Units: 1-Person Household
+      PCT_A10002B_003: % Renter-Occupied Housing Units: 2-Person Household
+      PCT_A10002B_004: % Renter-Occupied Housing Units: 3-Person Household
+      PCT_A10002B_005: % Renter-Occupied Housing Units: 4-Person Household
+      PCT_A10002B_006: % Renter-Occupied Housing Units: 5-Person Household
+      PCT_A10002B_007: % Renter-Occupied Housing Units: 6-Person Household
+      PCT_A10002B_008: % Renter-Occupied Housing Units: 7-or-More Person Household
+      A03001B_001:    Renter-Occupied Housing Units
+      A03001B_002:    Renter-Occupied Housing Units: White Alone Householder
+      A03001B_003:    Renter-Occupied Housing Units: Black or African American Alone Householder
+      A03001B_004:    Renter-Occupied Housing Units: American Indian and Alaska Native Alone Householder
+      A03001B_005:    Renter-Occupied Housing Units: Asian Alone Householder
+      A03001B_006:    Renter-Occupied Housing Units: Native Hawaiian and Other Pacific Islander Alone Householder
+      A03001B_007:    Renter-Occupied Housing Units: Some Other Race Alone Householder
+      A03001B_008:    Renter-Occupied Housing Units: Two or More Races Householder
+      A03001B_009:    Renter-Occupied Housing Units: White Alone, Not Hispanic or Latino Householder
+      A03001B_010:    Renter-Occupied Housing Units: Hispanic or Latino Householder
+      PCT_A03001B_002: % Renter-Occupied Housing Units: White Alone Householder
+      PCT_A03001B_003: % Renter-Occupied Housing Units: Black or African American Alone Householder
+      PCT_A03001B_004: % Renter-Occupied Housing Units: American Indian and Alaska Native Alone Householder
+      PCT_A03001B_005: % Renter-Occupied Housing Units: Asian Alone Householder
+      PCT_A03001B_006: % Renter-Occupied Housing Units: Native Hawaiian and Other Pacific Islander Alone Householder
+      PCT_A03001B_007: % Renter-Occupied Housing Units: Some Other Race Alone Householder
+      PCT_A03001B_008: % Renter-Occupied Housing Units: Two or More Races Householder
+      PCT_A03001B_009: % Renter-Occupied Housing Units: White Alone, Not Hispanic or Latino Householder
+      PCT_A03001B_010: % Renter-Occupied Housing Units: Hispanic or Latino Householder
+      A10010_001:     Households:
+      A10010_002:     Households: With a Householder Who Is White Alone
+      A10010_003:     Households: With a Householder Who Is Black or African  American Alone
+      A10010_004:     Households: With a Householder Who Is American Indian and  Alaska Native Alone
+      A10010_005:     Households: With a Householder Who Is Asian Alone
+      A10010_006:     Households: With a Householder Who Is Native Hawaiian and  Other Pacific Islander Alone
+      A10010_007:     Households: With a Householder Who Is Some Other Race Alone
+      A10010_008:     Households: With a Householder Who Is Two or More Races
+      A10010_009:     Households: With a Householder Who Is Hispanic or Latino
+      A10010_010:     Households: With a Householder Who Is White Alone, Not  Hispanic or Latino
+      PCT_A10010_002: % Households: With a Householder Who Is White Alone
+      PCT_A10010_003: % Households: With a Householder Who Is Black or African  American Alone
+      PCT_A10010_004: % Households: With a Householder Who Is American Indian and  Alaska Native Alone
+      PCT_A10010_005: % Households: With a Householder Who Is Asian Alone
+      PCT_A10010_006: % Households: With a Householder Who Is Native Hawaiian and  Other Pacific Islander Alone
+      PCT_A10010_007: % Households: With a Householder Who Is Some Other Race Alone
+      PCT_A10010_008: % Households: With a Householder Who Is Two or More Races
+      PCT_A10010_009: % Households: With a Householder Who Is Hispanic or Latino
+      PCT_A10010_010: % Households: With a Householder Who Is White Alone, Not  Hispanic or Latino
+      A10001_001:     Housing Units
+      A10032_001:     Housing Units:
+      A10032_002:     Housing Units: 1 Unit
+      A10032_003:     Housing Units: 1 Unit: 1, Detached
+      A10032_004:     Housing Units: 1 Unit: 1, Attached
+      A10032_005:     Housing Units: 2
+      A10032_006:     Housing Units: 3 or 4
+      A10032_007:     Housing Units: 5 to 9
+      A10032_008:     Housing Units: 10 to 19
+      A10032_009:     Housing Units: 20 to 49
+      A10032_010:     Housing Units: 50 or More
+      A10032_011:     Housing Units: Mobile Home
+      A10032_012:     Housing Units: Boat, Rv, Van, Etc.
+      PCT_A10032_002: % Housing Units: 1 Unit
+      PCT_A10032_003: % Housing Units: 1 Unit: 1, Detached
+      PCT_A10032_004: % Housing Units: 1 Unit: 1, Attached
+      PCT_A10032_005: % Housing Units: 2
+      PCT_A10032_006: % Housing Units: 3 or 4
+      PCT_A10032_007: % Housing Units: 5 to 9
+      PCT_A10032_008: % Housing Units: 10 to 19
+      PCT_A10032_009: % Housing Units: 20 to 49
+      PCT_A10032_010: % Housing Units: 50 or More
+      PCT_A10032_011: % Housing Units: Mobile Home
+      PCT_A10032_012: % Housing Units: Boat, Rv, Van, Etc.
+      A10055_001:     Occupied Housing Units
+      A10055_002:     Occupied Housing Units: Built 2020 or Later
+      A10055_003:     Occupied Housing Units: Built 2010 to 2019
+      A10055_004:     Occupied Housing Units: Built 2000 to 2009
+      A10055_005:     Occupied Housing Units: Built 1990 to 1999
+      A10055_006:     Occupied Housing Units: Built 1980 to 1989
+      A10055_007:     Occupied Housing Units: Built 1970 to 1979
+      A10055_008:     Occupied Housing Units: Built 1960 to 1969
+      A10055_009:     Occupied Housing Units: Built 1950 to 1959
+      A10055_010:     Occupied Housing Units: Built 1940 to 1949
+      A10055_011:     Occupied Housing Units: Built 1939 or Earlier
+      PCT_A10055_002: % Occupied Housing Units: Built 2020 or Later
+      PCT_A10055_003: % Occupied Housing Units: Built 2010 to 2019
+      PCT_A10055_004: % Occupied Housing Units: Built 2000 to 2009
+      PCT_A10055_005: % Occupied Housing Units: Built 1990 to 1999
+      PCT_A10055_006: % Occupied Housing Units: Built 1980 to 1989
+      PCT_A10055_007: % Occupied Housing Units: Built 1970 to 1979
+      PCT_A10055_008: % Occupied Housing Units: Built 1960 to 1969
+      PCT_A10055_009: % Occupied Housing Units: Built 1950 to 1959
+      PCT_A10055_010: % Occupied Housing Units: Built 1940 to 1949
+      PCT_A10055_011: % Occupied Housing Units: Built 1939 or Earlier
+      A10059B_001:    Renter-Occupied Housing Units
+      A10059B_002:    Renter-Occupied Housing Units: Built 2020 or Later
+      A10059B_003:    Renter-Occupied Housing Units: Built 2010 to 2019
+      A10059B_004:    Renter-Occupied Housing Units: Built 2000 to 2009
+      A10059B_005:    Renter-Occupied Housing Units: Built 1990 to 1999
+      A10059B_006:    Renter-Occupied Housing Units: Built 1980 to 1989
+      A10059B_007:    Renter-Occupied Housing Units: Built 1970 to 1979
+      A10059B_008:    Renter-Occupied Housing Units: Built 1960 to 1969
+      A10059B_009:    Renter-Occupied Housing Units: Built 1950 to 1959
+      A10059B_010:    Renter-Occupied Housing Units: Built 1940 to 1949
+      A10059B_011:    Renter-Occupied Housing Units: Built 1939 or Earlier
+      PCT_A10059B_002: % Renter-Occupied Housing Units: Built 2020 or Later
+      PCT_A10059B_003: % Renter-Occupied Housing Units: Built 2010 to 2019
+      PCT_A10059B_004: % Renter-Occupied Housing Units: Built 2000 to 2009
+      PCT_A10059B_005: % Renter-Occupied Housing Units: Built 1990 to 1999
+      PCT_A10059B_006: % Renter-Occupied Housing Units: Built 1980 to 1989
+      PCT_A10059B_007: % Renter-Occupied Housing Units: Built 1970 to 1979
+      PCT_A10059B_008: % Renter-Occupied Housing Units: Built 1960 to 1969
+      PCT_A10059B_009: % Renter-Occupied Housing Units: Built 1950 to 1959
+      PCT_A10059B_010: % Renter-Occupied Housing Units: Built 1940 to 1949
+      PCT_A10059B_011: % Renter-Occupied Housing Units: Built 1939 or Earlier
+      A10028_001:     Occupied Housing Units
+      A10028_002:     Occupied Housing Units: 0.50 or Less Occupants Per Room
+      A10028_003:     Occupied Housing Units: 0.51 to 1.00 Occupants Per Room
+      A10028_004:     Occupied Housing Units: 1.01 to 1.50 Occupants Per Room
+      A10028_005:     Occupied Housing Units: 1.51 to 2.00 Occupants Per Room
+      A10028_006:     Occupied Housing Units: 2.01 or More Occupants Per Room
+      PCT_A10028_002: % Occupied Housing Units: 0.50 or Less Occupants Per Room
+      PCT_A10028_003: % Occupied Housing Units: 0.51 to 1.00 Occupants Per Room
+      PCT_A10028_004: % Occupied Housing Units: 1.01 to 1.50 Occupants Per Room
+      PCT_A10028_005: % Occupied Housing Units: 1.51 to 2.00 Occupants Per Room
+      PCT_A10028_006: % Occupied Housing Units: 2.01 or More Occupants Per Room
+      A10034_001:     Occupied Housing Units:
+      A10034_002:     Occupied Housing Units: Gas (Utility, Bottled, Tank, or Lp Gas)
+      A10034_003:     Occupied Housing Units: Electricity
+      A10034_004:     Occupied Housing Units: Fuel Oil, Kerosene, Etc.
+      A10034_005:     Occupied Housing Units: Coal, Coke or Wood
+      A10034_006:     Occupied Housing Units: Solar Energy
+      A10034_007:     Occupied Housing Units: Other Fuel
+      A10034_008:     Occupied Housing Units: No Fuel Used
+      PCT_A10034_002: % Occupied Housing Units: Gas (Utility, Bottled, Tank, or Lp Gas)
+      PCT_A10034_003: % Occupied Housing Units: Electricity
+      PCT_A10034_004: % Occupied Housing Units: Fuel Oil, Kerosene, Etc.
+      PCT_A10034_005: % Occupied Housing Units: Coal, Coke or Wood
+      PCT_A10034_006: % Occupied Housing Units: Solar Energy
+      PCT_A10034_007: % Occupied Housing Units: Other Fuel
+      PCT_A10034_008: % Occupied Housing Units: No Fuel Used
+      A10034B_001:    Renter-Occupied Housing Units
+      A10034B_002:    Renter-Occupied Housing Units: Utility Gas
+      A10034B_003:    Renter-Occupied Housing Units: Bottled, Tank, or Lp Gas
+      A10034B_004:    Renter-Occupied Housing Units: Electricity
+      A10034B_005:    Renter-Occupied Housing Units: Fuel Oil, Kerosene, Etc.
+      A10034B_006:    Renter-Occupied Housing Units: Coal or Coke
+      A10034B_007:    Renter-Occupied Housing Units: Wood
+      A10034B_008:    Renter-Occupied Housing Units: Solar Energy
+      A10034B_009:    Renter-Occupied Housing Units: Other Fuel
+      A10034B_010:    Renter-Occupied Housing Units: No Fuel Used
+      PCT_A10034B_002: % Renter-Occupied Housing Units: Utility Gas
+      PCT_A10034B_003: % Renter-Occupied Housing Units: Bottled, Tank, or Lp Gas
+      PCT_A10034B_004: % Renter-Occupied Housing Units: Electricity
+      PCT_A10034B_005: % Renter-Occupied Housing Units: Fuel Oil, Kerosene, Etc.
+      PCT_A10034B_006: % Renter-Occupied Housing Units: Coal or Coke
+      PCT_A10034B_007: % Renter-Occupied Housing Units: Wood
+      PCT_A10034B_008: % Renter-Occupied Housing Units: Solar Energy
+      PCT_A10034B_009: % Renter-Occupied Housing Units: Other Fuel
+      PCT_A10034B_010: % Renter-Occupied Housing Units: No Fuel Used
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2025
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R13800532
+
+If you have any questions contact info@socialexplorer.com
